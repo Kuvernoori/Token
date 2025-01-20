@@ -1,6 +1,6 @@
 # Token-main (ERC-20)
 
-This repository contains the source code for the Token-main(TM) token, an ERC-20 token deployed on the Sepolia testnet. The token is initialized with a total supply of 2000 tokens and includes extra functionality to access transaction details.
+This repository contains the source code for the Token-main(TM) token, an ERC-20 token deployed on the Sepolia testnet. The token is initialized with a total supply of 7700 tokens and includes extra functionality to access transaction details.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ This repository contains the source code for the Token-main(TM) token, an ERC-20
 ## Features
 
 - **ERC-20 Standard**: Implements the ERC-20 token standard.
-- **Initial Supply**: Mints 2000 tokens to the deployer’s address upon deployment.
+- **Initial Supply**: Mints 7700 tokens to the deployer’s address upon deployment.
 - **Transaction Information**:
 - Get the block timestamp of the most recent transaction in a readable format.  
 - Get the sender's address of the transaction.  
