@@ -27,7 +27,8 @@ Before starting, make sure the following are installed:
 - [Node.js](https://nodejs.org/) (v16 or higher)
 - [Hardhat](https://hardhat.org/)
 - [MetaMask](https://metamask.io/) 
-- [Sepolia testnet ETH](https://cloud.google.com/application/web3/faucet/ethereum/sepolia/) 
+- [Sepolia testnet ETH](https://cloud.google.com/application/web3/faucet/ethereum/sepolia/)
+- [QuickNode](https://www.quicknode.com/)
 
 ## Installation
 
