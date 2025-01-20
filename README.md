@@ -27,7 +27,7 @@ Before starting, make sure the following are installed:
 - [Node.js](https://nodejs.org/) (v16 or higher)
 - [Hardhat](https://hardhat.org/)
 - [MetaMask](https://metamask.io/) 
-- Sepolia testnet ETH 
+- [Sepolia testnet ETH](https://cloud.google.com/application/web3/faucet/ethereum/sepolia/) 
 
 ## Installation
 
@@ -48,6 +48,8 @@ Before starting, make sure the following are installed:
       url: process.env.QUICKNODE_URL,
       accounts: [process.env.PRIVATE_KEY],
     ```
+    ![](meta.png)
+    
 ## Usage
 ### Compile the Contract
 Compile the smart contract:
@@ -59,6 +61,9 @@ Deploy the contract to the Sepolia testnet:
 ```
 npx hardhat run scripts/deploy.js --network sepolia
 ```
+
+![](deploy.jpg)
+
 ### Interact with the Contract
 1. Open the Hardhat console:
     ```
@@ -87,15 +92,25 @@ npx hardhat run scripts/deploy.js --network sepolia
       const receiver = await token.getTransactionReceiver(receiverAddress);
       console.log("Transaction Receiver:", receiver);
       ```
+      
+      ![](pc1.png)
+
 ## Examples
 ### Deploying the Contract
 ```
 npx hardhat run scripts/deploy.js --network sepolia
 ```
+
+![](address.png)
+
 ### Checking Token Balance
 ```
 const balance = await token.balanceOf("0xYourWalletAddress");
 console.log("Token Balance:", balance.toString());
 ```
+
+![](token.png)
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENCE) file for details.
+
